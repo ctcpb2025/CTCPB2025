@@ -29,7 +29,7 @@ function MyFooter() {
             <div class="container">
                 <div class="row my-3 justify-content-around">
                     <div class="col-md-3 col-sm-12">
-                        <h5 class="my-3 justify-content-center-md" style={{fontWeight: 'bold', textAlign: 'start'}}> 2023</h5>
+                        <h5 class="my-3 justify-content-center-md" style={{fontWeight: 'bold', textAlign: 'start'}}> 2025</h5>
                         <div class="">
                             <FooterNav navigateTo={"/"} name="Home" />
                             <FooterNav navigateTo={"/speakers"} name="Speakers" />
@@ -53,7 +53,7 @@ function MyFooter() {
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             &nbsp; +91-832-2580196</a>
                         </p>
-                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="mailto:icmc2023@goa.bits-pilani.ac.in" class="text-white">
+                        <p style={{textAlign: 'start'}}><a style={{textDecoration: 'none'}} href="ctcpb2025@goa.bits-pilani.ac.in" class="text-white">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             &nbsp; kundan@goa.bits-pilani.ac.in</a>
                         </p>                    

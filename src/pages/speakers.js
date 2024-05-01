@@ -1,7 +1,11 @@
 // import React from "react";
 
 import { ExcuseCard, Excuses } from "../layouts/excuses";
-
+import speaker1 from "../images/speakers/speaker1.png";
+import speaker2 from "../images/speakers/speaker2.jpg";
+import speaker3 from "../images/speakers/speaker3.jpg";
+import speaker4 from "../images/speakers/speaker4.jpg";
+import speaker5 from "../images/speakers/speaker5.jpeg";
 function SpeakerLink({ link }) {
   return (
     <a
@@ -31,9 +35,9 @@ class SpeakerHelper {
   }
 
   static speakerTextStyle = {
-    marginTop: '40px',
-    flexWrap: 'wrap',
-    textAlign: 'justify'
+    marginTop: "40px",
+    flexWrap: "wrap",
+    textAlign: "justify",
   };
 
   static getKeynoteSpeakerCards(speakerList) {
@@ -47,9 +51,7 @@ class SpeakerHelper {
           />
           <div className="upperDiv">
             <div className="speakerName">{speaker.speakerName}</div>
-            <div className="speakerText" style={{ marginTop: "25px", marginBottom: '40px' }}>
-              {speaker.speakerText}
-            </div>
+            <div className="speakerText">{speaker.speakerText}</div>
             <div style={speaker.speakerLinkStyle}>
               <SpeakerLink link={speaker.SpeakerLink} />
             </div>
@@ -64,8 +66,8 @@ class SpeakerHelper {
       return (
         <div className="speakerDiv col-md-4 col-sm-6 col-xs-12">
           <div className="upperDiv">
-          <div className="speakerName2">{speaker.speakerName}</div>
-            <div className="speakerText" style={{marginBottom: '40px'}}>
+            <div className="speakerName2">{speaker.speakerName}</div>
+            <div className="speakerText" style={{ marginBottom: "40px" }}>
               {speaker.speakerText}
             </div>
             <div style={speaker.speakerLinkStyle}>
@@ -78,172 +80,92 @@ class SpeakerHelper {
   }
 }
 
-// const speakerList1 = [
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker1,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof<br />
-//         University
-//       </div>
-//     ),
-//     "link of profile"    
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker1,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof<br />
-//         University
-//       </div>
-//     ),
-//     "link of profile"    
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker1,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof<br />
-//         University
-//       </div>
-//     ),
-//     "link of profile"    
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker1,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof<br />
-//         University
-//       </div>
-//     ),
-//     "link of profile"    
-//   ),
-// ];
-
-// const speakerList2 = [
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-//   new SpeakerHelper(
-//     "Prof. Name",
-//     speaker01,
-//     (
-//       <div className="speakerText" style={{ marginTop: "25px" }}>
-//         Dept of the prof <br />
-//         Univeristy
-//       </div>
-//     ),
-//     "link"
-//   ),
-  
- 
-// ];
+const invitedSpeakers = [
+  new SpeakerHelper(
+    "Dr. Alok K. Sinha",
+    speaker1,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        NIPGR
+        <br />
+        New Delhi
+      </div>
+    ),
+    "https://nipgr.ac.in/research/dr_asinha.php"
+  ),
+  new SpeakerHelper(
+    "Prof. Sneh Lata Singh Pareek",
+    speaker2,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        International Center for Genetic Engineering and Biotechnology
+        <br />
+        New Delhi
+      </div>
+    ),
+    "https://www.icgeb.org/sneh-lata-singla-pareek/"
+  ),
+  new SpeakerHelper(
+    "Prof. Sudhir K. Sopory",
+    speaker3,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        International Center for Genetic Engineering and Biotechnology
+        <br />
+        New Delhi
+      </div>
+    ),
+    "https://www.icgeb.org/sudhir-k-sopory/"
+  ),
+  new SpeakerHelper(
+    "Prof. Tarun Kant",
+    speaker4,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Indian Council for Forestry Research and Education
+        <br />
+        Dehradun
+      </div>
+    ),
+    "https://afri.icfre.gov.in/index.php?linkid=r4680&link=0"
+  ),
+  new SpeakerHelper(
+    "Prof. Manoj Prasad",
+    speaker5,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Delhi University
+        <br />
+        New Delhi
+      </div>
+    ),
+    "http://www.nipgr.res.in/research/dr_mprasad.php"
+  ),
+];
 
 function Speakers() {
+  // return (
+  //   <ExcuseCard excuseType={Excuses.TBU}/>
+  // )
 
   return (
-    <ExcuseCard excuseType={Excuses.TBU}/>
-  )
-  
-  // return (
-  //   <div
-  //     className="container"
-  //     style={{
-  //       marginBottom: "50px",
-  //     }}
-  //   >
-  //     <div className="titleStyle1">Our</div>
-  //     <div className="titleStyle2">Speakers</div>
-  //     <div class="divider" style={{ marginBottom: "30px" }}></div>
-      
-  //     <h2 class="heading-secondary">Keynote Speakers</h2>
-  //       {/* {SpeakerHelper.getKeynoteSpeakerCards(speakerList1)} */}
+    <div
+      className="container"
+      style={{
+        marginBottom: "50px",
+      }}
+    >
+      <div className="titleStyle1">Our</div>
+      <div className="titleStyle2">Speakers</div>
+      <div class="divider" style={{ marginBottom: "30px" }}></div>
 
-  //     <h2 class="heading-secondary" style={{ marginTop: "50px" }}>Invited Speakers</h2>
-  //     <div class="row">
-  //       {/* {SpeakerHelper.getInvitedSpeakerCards(speakerList2)} */}
-  //     </div>
-  //   </div>
-  // );
+      {/* <h2 class="heading-secondary">Keynote Speakers</h2> */}
+      {/* {SpeakerHelper.getKeynoteSpeakerCards(speakerList1)} */}
+
+      <h2 class="heading-secondary">Invited Speakers</h2>
+      {SpeakerHelper.getKeynoteSpeakerCards(invitedSpeakers)}
+    </div>
+  );
 }
 
 export default Speakers;

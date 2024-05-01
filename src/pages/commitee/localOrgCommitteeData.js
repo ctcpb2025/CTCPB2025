@@ -68,8 +68,8 @@ export const JSONData = [
     "LastName": "Biswas",
    },
    {
-    "FirstName": "Dr. Utpal",
-    "LastName": "Roy",
+    "FirstName": "Dr. Veeky",
+    "LastName": "Baths",
    },
    {
     "FirstName": "Dr. Vijayshree",

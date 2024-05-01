@@ -19,11 +19,10 @@ function PTCAI() {
             src={logo}
             alt="CTCPB logo"
             className="about-img-logo"
+           style={{height: "100px", marginTop: "0px"}} 
           />
           <p> </p>
           <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText}</p>
-          {/* <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText2}</p>
-          <p style={{fontWeight: '400'}} className="about-txt-cnt">{aboutText3}</p> */}
         </div>
       </div>
     </div>

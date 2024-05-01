@@ -17,35 +17,51 @@ function PastEditionElement({ link, yearname }) {
 }
 
 function PastEditions() {
+  // return (
+  //   <div>
+  //     <ExcuseCard excuseType={Excuses.TBU} />
+  //   </div>
+  // );
+
   return (
-    <div>
-      <ExcuseCard excuseType={Excuses.TBU} />
+    <div
+      className="container"
+      style={
+        {
+          /* marginLeft:"60px", marginTop: "40px" */
+        }
+      }
+    >
+      <div className="titleStyle1">Previous</div>
+      <div className="titleStyle2">Conferences</div>
+      <div class="divider" style={{ marginBottom: "30px" }}></div>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-evenly",
+          /*marginLeft: '60px', marginRight: '120px',*/ marginTop: "60px",
+        }}
+      >
+        <PastEditionElement
+          link="https://sites.google.com/pondiuni.ac.in/ptcai-rapb/"
+          yearname="RAPB 2024"
+        />
+        <PastEditionElement
+          link="https://ifans.nabi.res.in/"
+          yearname="IFANS 2023"
+        />
+        <PastEditionElement
+          link=" http://www.nrcpb.res.in/content/icar-nipb-organizing-international-symposium-%E2%80%9Cadvances-plant-biotechnology-and-nutritional"
+          yearname="NRCPB 2022"
+        />
+        <PastEditionElement
+          link="https://iiab.icar.gov.in/"
+          yearname="IIAB 2021"
+        />
+      </div>
     </div>
   );
-
-  // return(
-  //     <div className="container" style={{/* marginLeft:"60px", marginTop: "40px" */}}>
-  //         <div className = 'titleStyle1'>
-  //             Previous
-  //         </div>
-  //         <div className = 'titleStyle2'>
-  //             Conferences
-  //         </div>
-  //         <div class="divider" style={{marginBottom: '30px'}}></div>
-  //         <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px',*/ marginTop: "60px"}}>
-  //             <PastEditionElement link="" yearname="2013" />
-  //             <PastEditionElement link="" yearname="2015" />
-  //             <PastEditionElement link="" yearname="2017" />
-  //             <PastEditionElement link="" yearname="2018" />
-  //         </div>
-  //         <div style={{display:'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', /*marginLeft: '60px', marginRight: '120px'*/}}>
-  //             <PastEditionElement link="" yearname="2019" />
-  //             <PastEditionElement link="" yearname="2020" />
-  //             <PastEditionElement link="" yearname="2021" />
-  //             <PastEditionElement link="" yearname="2022" />
-  //         </div>
-  //     </div>
-  // )
 }
 
 export default PastEditions;

@@ -69,10 +69,10 @@ const Timer = () => {
                 <h2 className="my-3">CONFERENCE BEGINS IN</h2>
                 <div className="container mb-5">
                     <div className="row justify-content-center px-2">
-                        <TimerCard count={0} word="DAYS" />
-                        <TimerCard count={0} word="HRS" />
-                        <TimerCard count={0} word="MINS" />
-                        <TimerCard count={0} word="SECS" />
+                        <TimerCard count={days} word="DAYS" />
+                        <TimerCard count={hrs} word="HRS" />
+                        <TimerCard count={mins} word="MINS" />
+                        <TimerCard count={secs} word="SECS" />
                     </div>
                 </div>
             </div>

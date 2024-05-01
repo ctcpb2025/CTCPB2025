@@ -179,10 +179,10 @@
   margin-top: 20px;
   text-align: left;
   font-family: Roboto, sans-serif;
-  font-weight: 300;
-  font-size: 150%;
+  font-weight: 350;
+  font-size: 25px;
   line-height: 47px;
-  color: #bdbdbd;
+  color: rgb(64, 61, 61);
 }
 
 .speakerName2 {
@@ -201,16 +201,23 @@
   text-align: left;
   font-family: Roboto, sans-serif;
   font-weight: 300;
-  font-size: 14px;
-  color: #000000;
+  font-size: 18px;
+  color: rgb(97, 94, 94) ;
+  margin-bottom: 50px;
 }
 
 .speakerImg{
-  height: 350px;
+  height: 300px;
   width: 270px;
   margin-right: 20px;
   margin-left: 10vw;
 }
+
+.patronImg{
+  height: 300px;
+  width: 270px;
+}
+
 
 .speakerDiv{
   margin-top: 40px;
