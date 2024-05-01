@@ -1,7 +1,9 @@
-## INTERNATIONAL CONFERENCE FOR MATHEMATICS AND COMPUTING 2023
+## 46th Annual Meeting of Plant Tissue Culture Association, India.
 
+
+This is the website for the 46th Annual Meeting of Plant Tissue Culture Association, India, regarding the Current Trends and Challenges in Plant Biotechnology (CTCPB). <br><br>
 The Website is in development phase at the moment.<br>
-For testing purposes it has been deployed here: https://icmc23.netlify.app/
+For testing purposes it has been deployed here: https://ctcpb-2025.vercel.app/
 
 ## To deploy it at your own preferred URL
 Change `PUBLIC_URL` from `.env` file in the base directory.
