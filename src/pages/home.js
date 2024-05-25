@@ -10,6 +10,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ctcpblogo from "../images/icons/ctcpb-logo.png";
+import ptcailogo from "../images/icons/ptcai.png";
 import { ListGroup } from "react-bootstrap";
 
 const homepg_text =
@@ -110,8 +111,10 @@ function Home() {
 
       <Timer />
 
-      <div className=" d-flex">
-      <div class="row">
+      {/* code to add single sponsorship and associated BY */}
+
+      {/* <div className=" d-flex">
+        <div class="row">
         <h2 className="my-5 text-center">IN ASSOCIATION WITH</h2>
         <div className="justify-content-center">
           <img
@@ -136,7 +139,7 @@ function Home() {
         </div>
         </div>
         
-      </div>
+      </div> */}
 
  {/* Use the below format if there are multiple associations and sponsers */}
 
@@ -256,6 +259,31 @@ function Home() {
           </div>
           <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
             <img src={BITSDClassroom} alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4 my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
+            <img src={ptcailogo} alt="ptcailogo" class="img-fluid" />
+          </div>
+          <div class="col-lg-8 col-md-12 p-3" style={{ minHeight: "350px" }}>
+            <div>
+              <h1 class="" style={{ textAlign: "start", fontWeight: "light" }}>
+                About PTCAI
+                <br />
+              </h1>
+              <p class="" style={{ fontWeight: "400", textAlign: "justify" }}>
+                {" "}
+                {homepg_text2}{" "}
+              </p>
+              <div class="d-flex" style={{ textAlign: "start" }}>
+                <Link to="/about/ptcai/" class="black-button">
+                  VIEW MORE
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

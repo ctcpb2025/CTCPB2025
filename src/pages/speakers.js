@@ -2,10 +2,13 @@
 
 import { ExcuseCard, Excuses } from "../layouts/excuses";
 import speaker1 from "../images/speakers/speaker1.png";
-import speaker2 from "../images/speakers/speaker2.jpg";
+import speaker2 from "../images/speakers/speaker2.jpeg";
 import speaker3 from "../images/speakers/speaker3.jpg";
 import speaker4 from "../images/speakers/speaker4.jpg";
 import speaker5 from "../images/speakers/speaker5.jpeg";
+import speaker6 from "../images/speakers/speaker5.jpeg";
+import speaker7 from "../images/speakers/speaker5.jpeg";
+
 function SpeakerLink({ link }) {
   return (
     <a
@@ -94,8 +97,44 @@ const invitedSpeakers = [
     "https://nipgr.ac.in/research/dr_asinha.php"
   ),
   new SpeakerHelper(
-    "Prof. Sneh Lata Singh Pareek",
+    "Prof. Manoj Prasad",
     speaker2,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Delhi University
+        <br />
+        New Delhi
+      </div>
+    ),
+    "http://www.nipgr.res.in/research/dr_mprasad.php"
+  ),
+  new SpeakerHelper(
+    "Prof. Rakhi Chaturvedi",
+    speaker3,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        IIT Guwahati
+        <br />
+        Guwahati
+      </div>
+    ),
+    "https://www.iitg.ac.in/rakhi_chaturvedi/profile.html"
+  ),
+  new SpeakerHelper(
+    "Dr. Pradeep Agarwal",
+    speaker4,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        CSIR CSMCRI Bhavnagar
+        <br />
+        Bhavnagar
+      </div>
+    ),
+    "https://www.csmcri.res.in/node/340"
+  ),
+  new SpeakerHelper(
+    "Prof. Sneh Lata Singh Pareek",
+    speaker5,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
         International Center for Genetic Engineering and Biotechnology
@@ -107,7 +146,7 @@ const invitedSpeakers = [
   ),
   new SpeakerHelper(
     "Prof. Sudhir K. Sopory",
-    speaker3,
+    speaker6,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
         International Center for Genetic Engineering and Biotechnology
@@ -119,7 +158,7 @@ const invitedSpeakers = [
   ),
   new SpeakerHelper(
     "Prof. Tarun Kant",
-    speaker4,
+    speaker7,
     (
       <div className="speakerText" style={{ marginTop: "25px" }}>
         Indian Council for Forestry Research and Education
@@ -129,18 +168,7 @@ const invitedSpeakers = [
     ),
     "https://afri.icfre.gov.in/index.php?linkid=r4680&link=0"
   ),
-  new SpeakerHelper(
-    "Prof. Manoj Prasad",
-    speaker5,
-    (
-      <div className="speakerText" style={{ marginTop: "25px" }}>
-        Delhi University
-        <br />
-        New Delhi
-      </div>
-    ),
-    "http://www.nipgr.res.in/research/dr_mprasad.php"
-  ),
+
 ];
 
 function Speakers() {

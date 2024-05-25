@@ -26,36 +26,37 @@ class timelineEvent {
 }
 
 const eventList = [
-  new timelineEvent("Date 1", "Event 1"),
-  new timelineEvent("Date 2", "Event 2"),
-  new timelineEvent("Date 3", "Event 3"),
-  new timelineEvent("Date 4", "Event 4"),
-  new timelineEvent("Date 5", "Event 5"),
+  new timelineEvent("1st Sept to 30th Oct 2024", "Early Bird Registration"),
+  new timelineEvent("1st Nov to 30th Nov 2024", "Normal Registration"),
+  new timelineEvent("1st Jan 2025", "Abstract Submission Deadline"),
+  // new timelineEvent("Date 4", "Event 4"),
+  // new timelineEvent("Date 5", "Event 5"),
 ];
 
 function Timeline() {
   return (
-    <div className="container">
-       <div className="titleStyle1">Timeline</div>
-    <div className="titleStyle2">Of Events</div>
-    <ExcuseCard excuseType={Excuses.TBU} />
-    </div>
-    // <div class="container">
-    //   <div className="titleStyle1">Timeline</div>
-    //   <div className="titleStyle2">Of Events</div>
-    //   <div class="divider" style={{ marginBottom: "30px" }}></div>
-    //   <section class="section-timeline">
-    //     <div class="scale">
-    //       <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
-    //       <div className="center-fix">
-    //         <Link class="black-button mg-tp" to="/contact">
-    //           CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
-    //         </Link>
-    //         <p></p>
-    //       </div>
-    //     </div>
-    //   </section>
+    // <div className="container">
+    //    <div className="titleStyle1">Timeline</div>
+    // <div className="titleStyle2">Of Events</div>
+    // <ExcuseCard excuseType={Excuses.TBU} />
+
     // </div>
+    <div class="container">
+      <div className="titleStyle1">Timeline</div>
+      <div className="titleStyle2">Of Events</div>
+      <div class="divider" style={{ marginBottom: "30px" }}></div>
+      <section class="section-timeline">
+        <div class="scale">
+          <ul class="timeline">{timelineEvent.getCards(eventList)}</ul>
+          <div className="center-fix">
+            <Link class="black-button mg-tp" to="/contact">
+              CONTACT US <span> REGARDING ANY OTHER DETAILS </span>
+            </Link>
+            <p></p>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
 

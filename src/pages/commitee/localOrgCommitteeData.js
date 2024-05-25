@@ -1,78 +1,78 @@
 export const JSONData = [
   {
-   "FirstName": "Dr. Anasuya",
+   "FirstName": "Prof. Anasuya",
    "LastName": " Ganguly",
   },
   {
-   "FirstName": "Dr. Angshuman",
+   "FirstName": "Prof. Angshuman",
    "LastName": "Sarkar",
   },
   {
-   "FirstName": "Dr. Arnab",
+   "FirstName": "Prof. Arnab",
    "LastName": "Banerjee",
   },
   {
-   "FirstName": "Dr. Indrani",
+   "FirstName": "Prof. Indrani",
    "LastName": " Talukadar",
   },
   {
-   "FirstName": "Dr. Judith",
+   "FirstName": "Prof. Judith",
    "LastName": "Braganca",
   },
   {
-   "FirstName": "Dr. Malabika",
+   "FirstName": "Prof. Malabika",
    "LastName": "Biswas",
   },
   {
-   "FirstName": "Dr. Meenal",
+   "FirstName": "Prof. Meenal",
    "LastName": "Kowshik",
   },
   {
-   "FirstName": "Dr. Rajesh",
+   "FirstName": "Prof. Rajesh",
    "LastName": "Mehrotra",
   },
   {
-   "FirstName": "Dr. Samit",
+   "FirstName": "Prof. Samit",
    "LastName": "Chattopadhyay",
   },
   {
-   "FirstName": "Dr. Sandhya",
+   "FirstName": "Prof. Sandhya",
    "LastName": "Mehrotra",
   },
   {
-   "FirstName": "Dr. Sonal",
-   "LastName": "Ayankar",
+   "FirstName": "Prof. Sonal",
+   "LastName": "Ayakar",
   },
   {
-    "FirstName": "Dr. Sukanta",
+    "FirstName": "Prof. Sukanta",
     "LastName": "Mondal",
    },
    {
-    "FirstName": "Dr. Tusar",
+    "FirstName": "Prof. Tusar Tirtha",
     "LastName": "Saha",
    },
    {
-    "FirstName": "Dr. Dibakar",
+    "FirstName": "Prof. Dibakar",
     "LastName": "Chakrabarty",
    },
    {
-    "FirstName": "Dr. Raviprasad",
+    "FirstName": "Prof. Raviprasad",
     "LastName": "Aduri",
    },
    {
-    "FirstName": "Dr. Srikanth",
+    "FirstName": "Prof. Srikanth",
     "LastName": "Mutnuri",
    },
    {
-    "FirstName": "Dr. Sumit",
+    "FirstName": "Prof. Sumit",
     "LastName": "Biswas",
    },
    {
-    "FirstName": "Dr. Veeky",
+    "FirstName": "Prof. Veeky",
     "LastName": "Baths",
    },
    {
-    "FirstName": "Dr. Vijayshree",
+    "FirstName": "Prof. Vijayshree",
     "LastName": "Nayak",
    },
  

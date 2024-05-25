@@ -44,7 +44,7 @@ function MyFooter() {
                         <a style={{textDecoration: 'none'}} href="https://universe.bits-pilani.ac.in/goa/jksahoo/profile" target="_blank" rel="nopener noreferrer" class="text-white">
                         <i class="fa fa-map-marker text-white" aria-hidden="true"></i>
                         &nbsp; Prof. Kundan Kumar<br/>
-                        &nbsp;&nbsp;&nbsp; Organizer<br/>
+                        {/* &nbsp;&nbsp;&nbsp; Organizer<br/> */}
                         &nbsp;&nbsp;&nbsp; Department of Biological Sciences<br/>
                         &nbsp;&nbsp;&nbsp; BITS Pilani Goa Campus<br/>
                         </a>
