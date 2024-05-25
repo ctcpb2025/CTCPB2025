@@ -61,6 +61,8 @@ function MyNavbar() {
 								<DropDownItem link={"/about/ptcai"} showname={"PTCAI"} />
 						</NavWithDropDown>
 
+						<NavWithoutDropDown link={"/sponsorship"} showname={"Sponsors"} />
+
 						<NavWithoutDropDown link={"/speakers"} showname={"Speakers"} />
 
 						<NavWithoutDropDown link={"/committee"} showname={"Committee"} />

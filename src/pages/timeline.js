@@ -26,11 +26,11 @@ class timelineEvent {
 }
 
 const eventList = [
-  new timelineEvent("1st Sept to 30th Oct 2024", "Early Bird Registration"),
-  new timelineEvent("1st Nov to 30th Nov 2024", "Normal Registration"),
+  new timelineEvent("1st Sept 2024", "Early Bird Registration Starts"),
+  new timelineEvent("30th Oct 2024", "Early Bird Registration Ends"),
+  new timelineEvent("1st Nov 2024", "Normal Registration Starts"),
+  new timelineEvent("30th Nov 2024", "Normal Registration Ends"),
   new timelineEvent("1st Jan 2025", "Abstract Submission Deadline"),
-  // new timelineEvent("Date 4", "Event 4"),
-  // new timelineEvent("Date 5", "Event 5"),
 ];
 
 function Timeline() {

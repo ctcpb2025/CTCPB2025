@@ -5,9 +5,9 @@ import speaker1 from "../images/speakers/speaker1.png";
 import speaker2 from "../images/speakers/speaker2.jpeg";
 import speaker3 from "../images/speakers/speaker3.jpg";
 import speaker4 from "../images/speakers/speaker4.jpg";
-import speaker5 from "../images/speakers/speaker5.jpeg";
-import speaker6 from "../images/speakers/speaker5.jpeg";
-import speaker7 from "../images/speakers/speaker5.jpeg";
+import speaker5 from "../images/speakers/speaker5.jpg";
+import speaker6 from "../images/speakers/speaker6.jpg";
+import speaker7 from "../images/speakers/speaker7.jpg";
 
 function SpeakerLink({ link }) {
   return (

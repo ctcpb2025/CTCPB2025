@@ -18,6 +18,7 @@ import PastEditions from './pages/pasteditions';
 import BPGCGoa from './pages/venue/bpgcgoa';
 import HowToReach from './pages/venue/howtoreach';
 import Accomodation from './pages/venue/accomodation';
+import Sponsorship from './pages/sponsorship';
 import Contact from './pages/contact';
 import ErrorPage from './pages/errorpage';
 import { Routes, Route } from "react-router-dom";
@@ -40,6 +41,7 @@ function App() {
 			<Route exact path='/about/ptcai' element = {<PTCAI />} />
 			<Route exact path='/speakers' element = {<Speakers />} />
 			<Route exact path='/committee' element = {<Committee />} />
+			<Route exact path='/sponsorship' element = {<Sponsorship />} />
 			{/*
 			<Route exact path='/timeline' element = {<Timeline />} />
 			<Route exact path='/committee/patrons' element = {<Patrons />} />

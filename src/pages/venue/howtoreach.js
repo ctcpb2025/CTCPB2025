@@ -25,6 +25,12 @@ function Howtoreach() {
               <td>300</td>
             </tr>
             <tr>
+              <td>Manohar International Airport (GOX)</td>
+              <td>66</td>
+              <td>2000</td>
+            </tr>
+
+            <tr>
               <td>Vasco Da Gama Railway Station (VSG)</td>
               <td>10</td>
               <td>300</td>

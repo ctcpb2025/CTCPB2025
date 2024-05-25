@@ -10,7 +10,6 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import ctcpblogo from "../images/icons/ctcpb-logo.png";
-import ptcailogo from "../images/icons/ptcai.png";
 import { ListGroup } from "react-bootstrap";
 
 const homepg_text =
@@ -82,6 +81,14 @@ function Home() {
                 >
                   {" "}
                   Schedule <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+                <a
+                  download
+                  href="documents/CTCPB_2025.pdf"
+                  class="black-button m-1"
+                >
+                  {" "}
+                  Flyer <i class="fa fa-download" aria-hidden="true"></i>
                 </a>
               </div>
               <div class="d-flex" style={{ textAlign: "start" }}>
