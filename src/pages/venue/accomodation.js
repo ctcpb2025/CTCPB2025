@@ -2,7 +2,7 @@ import React from "react";
 import BTable from "react-bootstrap/Table";
 const hotelslink = "https://www.bits-pilani.ac.in/goa/goahotels"
 
-const accoText = "Note about accomodation. Mention in registration form if hostels are available"
+// const accoText = "Note about accomodation. Mention in registration form if hostels are available"
 
 function Accomodation() {
     return (
@@ -48,7 +48,7 @@ function Accomodation() {
                     </tr>
                 </tbody>
                 </BTable>
-            <p style={{fontWeight: '400'}} className="about-txt-cnt">{accoText}</p>
+            <p style={{fontWeight: '400'}} className="about-txt-cnt"><b>Note:</b> Hostel accommodation may be provided to Ph.D. students based on availability.</p>
             <a class="black-button" href={hotelslink} target="_blank" rel="nopener noreferrer">CLICK HERE FOR MORE ACCOMODATION DETAILS NEARBY</a>
             <p></p>
             
