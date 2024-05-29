@@ -16,7 +16,8 @@ const homepg_text =
   ", a well-known all-India Institute for higher education. In keeping with the tradition of innovation and creativity, a state-of-the-art touch is given to the infrastructure of the entire institute without diminishing, in the least, the natural beauty of Goa surrounding the campus. Spacious labs, classrooms with soundproof acoustics, modern furniture, library and computer labs with internet facility define the infrastructural counters of the institution.";
 const homepg_text2 =
   "Department of Biological Sciences, BITS Pilani, K. K. Birla Goa Campus along with Plant Tissue Culture Association (India) invites you for National Symposium. The symposium aims to bring eminent scientists working in the frontier areas of Plant Tissue Culture, Biotechnologist, Genomics, Genetics, Metabolomics, Stress Biology, Developmental Biologist together and provide a forum for sharing their immense experience to encourage and inspire young researchers for exploring the emerging areas of Plant Biotechnology. The conference would address, deliberate and consolidate the issues and technologies aimed to develop climate resilient crops to meet the global food demand.";
-
+const homepg_text3 = 
+  "The Plant Tissue Culture Association of India (PTCA(I)), registered in 1976, is an elite body of Plant Tissue Culture Scientists, several of whom are pioneers in this field and while other have established scientific credentials. PTCA(I) has been organizing symposia which facilitated coming together of faculties, students, researchers and NGOs to deliberate on recent advances in plant science and come out with proposals for future line of research."
 function Home() {
   return (
     <div>
@@ -283,7 +284,7 @@ function Home() {
               </h1>
               <p class="" style={{ fontWeight: "400", textAlign: "justify" }}>
                 {" "}
-                {homepg_text2}{" "}
+                {homepg_text3}{" "}
               </p>
               <div class="d-flex" style={{ textAlign: "start" }}>
                 <Link to="/about/ptcai/" class="black-button">
@@ -298,7 +299,7 @@ function Home() {
       <div class="container py-4 my-5">
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-6 d-block d-lg-block d-none d-sm-none align-self-center">
-            <img src={ctcpblogo} alt="bitpilanigoalogo" class="img-fluid" />
+            <img src={ctcpblogo} alt="ctcpblogo" class="img-fluid" />
           </div>
           <div class="col-lg-8 col-md-12 p-3" style={{ minHeight: "350px" }}>
             <div>

@@ -1,5 +1,4 @@
 import React from "react";
-import speaker1 from "../../images/speakers/speaker5.jpg";
 import patron1 from "../../images/speakers/patron1.jpg";
 import patron2 from "../../images/speakers/patron2.jpg";
 

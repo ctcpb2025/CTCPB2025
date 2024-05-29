@@ -4,12 +4,12 @@ export const JSONData = [
    "LastName": " Tyagi",
   },
   {
-   "FirstName": "Dr. Alok",
-   "LastName": "Sinha",
+   "FirstName": "Dr. Ajit Kumar",
+   "LastName": "Shasany",
   },
   {
-   "FirstName": "Dr. Anil K.",
-   "LastName": "Singh",
+   "FirstName": "Dr. Alok",
+   "LastName": "Sinha",
   },
   {
    "FirstName": "Prof. Ashwani",
@@ -32,8 +32,8 @@ export const JSONData = [
    "LastName": "Dhankher",
   },
   {
-   "FirstName": "Prof. P. B",
-   "LastName": "Kirti",
+   "FirstName": "Dr. P.",
+   "LastName": "Suprasanna",
   },
   {
    "FirstName": "Prof. Padmanabh",
@@ -58,10 +58,6 @@ export const JSONData = [
    {
     "FirstName": "Prof. Rakhi",
     "LastName": "Chaturvedi",
-   },
-   {
-    "FirstName": "Prof. Ramesh V.",
-    "LastName": "Sonti",
    },
    {
     "FirstName": "Prof. S. S.",
@@ -91,10 +87,7 @@ export const JSONData = [
     "FirstName": "Prof. Subhra",
     "LastName": "Chakraborty",
    },
-   {
-    "FirstName": "Prof. T.R. ",
-    "LastName": "Sharma",
-   },
+
 
 
  

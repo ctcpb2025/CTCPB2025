@@ -8,6 +8,7 @@ import speaker4 from "../images/speakers/speaker4.jpg";
 import speaker5 from "../images/speakers/speaker5.jpg";
 import speaker6 from "../images/speakers/speaker6.jpg";
 import speaker7 from "../images/speakers/speaker7.jpg";
+import speaker8 from "../images/speakers/speaker8.jpg";
 
 function SpeakerLink({ link }) {
   return (
@@ -95,6 +96,18 @@ const invitedSpeakers = [
       </div>
     ),
     "https://nipgr.ac.in/research/dr_asinha.php"
+  ),
+  new SpeakerHelper(
+    "Prof. K. C. Bansal",
+    speaker8,
+    (
+      <div className="speakerText" style={{ marginTop: "25px" }}>
+        Ex. Director, NBPGR (ICAR)
+        <br />
+        New Delhi
+      </div>
+    ),
+    "http://www.nbpgr.ernet.in/Personnel/Scientists/sid/44.aspx"
   ),
   new SpeakerHelper(
     "Prof. Manoj Prasad",

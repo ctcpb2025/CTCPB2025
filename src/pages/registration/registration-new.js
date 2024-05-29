@@ -34,17 +34,17 @@ function RegistrationNew() {
                     </td>
                     <td align="center">
                       <b>
-                        On or Before
+                        From 1<sup>st</sup> Sep 2024 
                         <br />
-                        30<sup>th</sup> Oct 2024
+                        to 30<sup>th</sup> Oct 2024
                       </b>
                     </td>
                     
                     <td align="center">
                       <b>
-                        On or Before
+                        From 1<sup>st</sup> Nov 2024
                         <br />
-                       30<sup>th</sup> Nov 2024
+                       {/* to 30<sup>th</sup> Nov 2024 */}
                       </b>
                     </td>
                     
