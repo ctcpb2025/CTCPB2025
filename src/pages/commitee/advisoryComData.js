@@ -1,91 +1,91 @@
 export const JSONData = [
   {
    "FirstName": "Prof. A.K. ",
-   "LastName": " Tyagi",
+   "LastName": " Tyagi, DU",
   },
   {
    "FirstName": "Dr. Ajit Kumar",
-   "LastName": "Shasany",
+   "LastName": "Shasany, CSIR-NBRI",
   },
   {
    "FirstName": "Dr. Alok",
-   "LastName": "Sinha",
+   "LastName": "Sinha, NIPGR",
   },
   {
    "FirstName": "Prof. Ashwani",
-   "LastName": " Pareek",
+   "LastName": " Pareek, NABI",
   },
   {
    "FirstName": "Prof. Deepak",
-   "LastName": "Pental",
+   "LastName": "Pental, DU",
   },
   {
    "FirstName": "Prof. M.K.",
-   "LastName": "Janarthanam",
+   "LastName": "Janarthanam, GU",
   },
   {
    "FirstName": "Prof. Manoj",
-   "LastName": "Prasad",
+   "LastName": "Prasad, DU",
   },
   {
    "FirstName": "Prof. Om Prakash",
-   "LastName": "Dhankher",
+   "LastName": "Dhankher, UMASS",
   },
   {
    "FirstName": "Dr. P.",
-   "LastName": "Suprasanna",
+   "LastName": "Suprasanna, AMITY",
   },
   {
    "FirstName": "Prof. Padmanabh",
-   "LastName": "Dwivedi",
+   "LastName": "Dwivedi, BHU",
   },
   {
    "FirstName": "Prof. Paramjit",
-   "LastName": "Khurana",
+   "LastName": "Khurana, DU",
   },
   {
-    "FirstName": "Prof. Prabodh",
-    "LastName": "Trivedi",
+    "FirstName": "Dr. Prabodh",
+    "LastName": "Trivedi, CSIR-CIMAP",
    },
    {
-    "FirstName": "Prof. Pradeep K.",
-    "LastName": "Agarwal",
+    "FirstName": "Dr. Pradeep K.",
+    "LastName": "Agarwal, CSIR-CSMCRI",
    },
    {
     "FirstName": "Prof. Pramod",
-    "LastName": "Tandon",
+    "LastName": "Tandon, PTCAI",
    },
    {
     "FirstName": "Prof. Rakhi",
-    "LastName": "Chaturvedi",
+    "LastName": "Chaturvedi, IITG",
    },
    {
     "FirstName": "Prof. S. S.",
-    "LastName": "Bhojwani",
+    "LastName": "Bhojwani, DEI",
    },
    {
     "FirstName": "Prof. S.",
-    "LastName": "Krishnan",
+    "LastName": "Krishnan, GU",
    },
    {
     "FirstName": "Prof. S.K.",
-    "LastName": "Sopory",
+    "LastName": "Sopory, ICGEB",
    },
    {
-    "FirstName": "Prof. Sanjay",
-    "LastName": "Kumar",
+    "FirstName": "Dr. Sanjay",
+    "LastName": "Kumar, ASRB",
    },
    {
-    "FirstName": "Prof. Sharmila",
-    "LastName": "Chattopadhyay",
+    "FirstName": "Dr. Sharmila",
+    "LastName": "Chattopadhyay, IICB",
    },
    {
     "FirstName": "Prof. Sneh Lata",
-    "LastName": "Singla-Pareek",
+    "LastName": "Singla-Pareek, ICGEB",
    },
    {
-    "FirstName": "Prof. Subhra",
-    "LastName": "Chakraborty",
+    "FirstName": "Dr. Subhra",
+    "LastName": "Chakraborty, NIPGR",
    },
 
 

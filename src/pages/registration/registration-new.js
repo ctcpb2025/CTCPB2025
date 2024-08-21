@@ -7,13 +7,47 @@ function RegistrationNew() {
     <div>
       <section id="registration" class="team section-bg">
         <div class="container">
+ 
           <div class="section-header">
             <div className="titleStyle1">Conference Registration</div>
+            <div class="divider" style={{ marginBottom: "30px" }}></div>
+            <div className="titleStyle2">Details </div>
+            <><br /></>
+            <div>
+              <p style={{ textAlign: "justify" }}>
+              
+                <ul>
+                  <li>Registration includes all meals and refreshment breaks for the duration of the conference.</li>
+                  <li>Registration may be closed early due to limited space.</li>
+                  <li>To register for the Conference at the reduced Student Rate, you must have a valid student ID.</li>
+                  <li>To register for the Conference as a PTCAI member, you must have a valid membership ID.</li>
+                </ul>
+              </p>
+            </div>           
+
+            <div class="divider" style={{ marginBottom: "30px" }}></div>
+            <div className="titleStyle2">Format </div>
+            <><br /></>
+            <div>
+              <p style={{ textAlign: "justify" }}>
+                Title, followed by the name of the Author(s). Presenter's name(s) to be underlined.<br />
+                Body of the abstract must not be exceeding 500 words.<br />
+                Font: Times New Roman<br />
+                Font size 12.<br />
+                Figures and references should not be included in the abstract.
+              </p>
+            </div>           
+
+            <div class="divider" style={{ marginBottom: "30px" }}></div>
+          </div>
+          
+          <div class="section-header">
             <div className="titleStyle2">Fees</div>
             <div class="divider" style={{ marginBottom: "30px" }}></div>
           </div>
 
-          {/* <div class="my-2">
+
+         {/* <div class="my-2">
           {ExcuseCard(Excuses.RegistrationsClosed)}
           </div> */}
 
@@ -34,7 +68,7 @@ function RegistrationNew() {
                     </td>
                     <td align="center">
                       <b>
-                        From 1<sup>st</sup> Sep 2024 
+                        From 15<sup>th</sup> Sep 2024 
                         <br />
                         to 30<sup>th</sup> Oct 2024
                       </b>
@@ -44,7 +78,7 @@ function RegistrationNew() {
                       <b>
                         From 1<sup>st</sup> Nov 2024
                         <br />
-                       {/* to 30<sup>th</sup> Nov 2024 */}
+                        to 15<sup>th</sup> Dec 2024 
                       </b>
                     </td>
                     
