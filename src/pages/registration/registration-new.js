@@ -114,7 +114,7 @@ function RegistrationNew() {
                   </tr>
                   <tr>
                     <td colSpan="3">
-                    <a href="https://forms.gle/ToA2DvdVHaq4w3Et6">Link for Registration</a>
+                    <a href="https://forms.gle/ToA2DvdVHaq4w3Et6"> Link for Registration </a>
                     </td>
                   </tr>
                 </tbody>
